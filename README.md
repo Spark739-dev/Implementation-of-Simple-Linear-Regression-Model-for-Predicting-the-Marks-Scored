@@ -12,8 +12,8 @@ To write a program to predict the marks scored by a student using the simple lin
 2. Load the dataset by using pd.readscv() to read csv by using panda module.
 3. Import sklearn.metrics to import mean_absolute_error and mean_squared_error.
 4. Show the dataframe using tail or head.
-5. Create variable 'X' and give the input using indexlocation(df.iloc[:,:-1]).
-6. Create variable 'Y' and give the input using indexlocation(df.iloc[:,1]).
+5. Create variable 'X' and give the input using indexlocation(df.iloc[:,:-1]).values.
+6. Create variable 'Y' and give the input using indexlocation(df.iloc[:,1]).values.
 7. Import sklearn.model_selection from that import train_test_split.
 8. Create new variable as X_train,X_test,Y_train,Y_test and give input as train_test_split and give this inside parameter (X,Y,test_size=1/3,random_state=0).
 9. Import sklearn.linear_model from that import LinearRegression.
